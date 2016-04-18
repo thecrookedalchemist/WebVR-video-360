@@ -1,3 +1,5 @@
+//Author: thecrookedalchemist
+//Additional Help: tomcat93, GoogleCardboard Team, mr.doob
 (function(){
 //initialize Global Values.
 var camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 10000);
