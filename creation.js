@@ -25,7 +25,7 @@ document.body.appendChild(canvas);
 //-----------//
 var video = document.createElement('video');//create the video and call the source.
 video.src = 'mery.mp4';
-video.setAttribute('crossorigin', 'anonymous'), ('webkit-playsinline');
+video.setAttribute('crossorigin', 'anonymous'), ('playsinline');
 document.getElementById('canvas').appendChild(video);
 //after canvas has been created appendChild video element.
 
